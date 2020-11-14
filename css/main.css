@@ -1,0 +1,160 @@
+/* 新着情報 */
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Lato","ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 100%;
+    color:black;
+}
+ul{
+    list-style: none;
+  }
+hr{
+    margin: 0px;
+    color: #ccc;
+}
+a{
+    color: black;
+}
+
+/* トップ画面 */
+.top{
+    height: 100%;
+    background-image: url(../image/frontpage_mv2.jpg);
+    background-size: cover
+}
+.attention{
+    position: relative;
+    padding: 10px;
+    margin: 30 10;
+    right: 120%;
+    background-color: #fdff8d;
+}
+.logo{
+    position: relative;
+    left: 120%;
+}
+.center{
+    width: 25%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    display:flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.center hr{
+    width: 80%;
+    margin: 0 auto;
+}
+.center_text{
+    writing-mode: vertical-rl;
+    margin: 0 auto;
+}
+.center_link a{
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+/* 情報 */
+.info_element{
+    padding: 100 0;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.news img{
+    width: 100%;
+}
+.news_element{
+    width: 23%;
+}
+.stockInfo {
+    overflow: hidden;
+    height: 350px;
+}
+.businessHours {
+    overflow: hidden;
+    height: 350px;
+}
+.itemExplain {
+    overflow: hidden;
+    height: 350px;
+}
+.box-img{
+    max-width: 40%;
+    margin-right: 30px;
+    float: left;
+}
+.box-text{
+    height: 100%;
+}
+.box-text span p{
+    padding-bottom: 20px;
+}
+.box-text li{
+    padding-bottom: 5px;
+}
+/* フッター */
+.footer{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_link{
+    margin: 10 0px;
+    padding: 10 0px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_link a{
+    text-decoration: none;
+    padding: 10px;
+}
+/* 参照：https://jajaaan.co.jp/css/button/ */
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;/*rem算出をしやすくするために*/
+}
+.footer{
+    text-align: center;
+}
+.btn {
+    height: 60px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-radius: 0.5rem;
+    background: #ccc;
+    position:relative;
+    top: -2px;
+}
+.q{
+    margin: 30px;
+}
